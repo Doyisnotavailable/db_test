@@ -20,4 +20,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["python", "src/check_url.py"]
+CMD ["python", "src/populate_db.py"]
